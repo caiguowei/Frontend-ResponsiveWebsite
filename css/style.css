@@ -17,10 +17,229 @@ table { border-spacing:0; border-collapse:collapse;}
 
     /* topmenu start */
 .top{
+  width: 1200px;
   min-height: 125px;
-  background-color: pink;
+  margin: 0 auto;
+  position: relative;
+}
+
+.top-wrap{
+
+}
+
+.top-logo{
+  position: absolute;
+  width: 68px;
+  height: 68px;
+  background: url(../images/top-logo.jpg) no-repeat;
+  font-size: 30px;
+  line-height: 68px;
+  text-align: center;
+  margin-top: -34px;
+  top: 50%;
+  float: left;
+}
+
+.CompanyName{
+  position: absolute;
+  width: 148px;
+  height: 60px;
+  line-height: 148px;
+  margin: auto 0;
+  float: left;
+  top:0;
+  bottom: 0;
+  right: 0;
+  left: 0;
+  margin-left: 76px;
+}
+
+.CompanyName .Cname{
+  font-size: 30px;
+  line-height: 1;
+  text-align: center;
+  font-weight: normal;
+}
+
+.CompanyName .Ename{
+  display: block;
+  font-size: 14px;
+  line-height: 1;
+  text-align: center;
+  margin-top: 16px;
+  font-weight: normal;
+}
+
+.topnav{
+  float: left;
+  padding-left: 274px;
+  padding-top: 70px;
+}
+
+.topnav a{
+  padding: 0 30px 0 0;
+  float: left;
+  font-size: 16px;
+  line-height: 1;
+  color: #333333;
+}
+
+.topnav a:hover{
+  color: #94ba6d;
+  text-decoration: none;
+}
+
+.service-hotline{
+  width: 164px;
+  height: 70px;
+  background-color: #026e25;
+  float: right;
+  margin-top: 38px;
+  color: #fff;
+}
+
+.phone-icon{
+  width: 16px;
+  height: 16px;
+  background: url(../images/easyicon.png) no-repeat;
+  display: block;
+  margin: 15px auto auto 10px;
+  float: left;
+}
+
+.hotline{
+  font-size: 13px;
+  float: left;
+  line-height: 16px;
+  margin: 15px auto auto 6px;
+}
+
+.phone-nub{
+  font-size: 20px;
+  margin: 10px auto auto 14px;
+  font-weight: normal;
+}
+    /* topmenu end */
+
+    /* banner */
+.banner{
+  width: 100%;height: 630px;top:0;
+}
+.banner img{
+  display: block;outline: none;border:0;height: 100%;width: 100%;
+}
+    /* banner end */
+
+    /* business start */
+.business{
+  width: 100%;
+  height: 514px;
+  background-color: #f3f3f3;
+
+}
+
+.business h1{
+  text-align: center;
+  padding-top: 30px;
+  font-size: 26px;
+  line-height: 1;
+  color: #595959;
+  font-weight: normal;
+}
+
+.business h2{
+  text-align: center;
+  padding-top: 15px;
+  font-size: 26px;
+  line-height: 1;
+  color: #549005;
+  font-weight: normal;
+}
+
+.business .line{
+  display: block;
+  width: 34px;
+  border-bottom: 1px solid #717070;
+  margin: 0 auto;
+  margin-top: 24px;
+  margin-bottom: 24px;
+}
+
+.business-mid{
+  margin-top: 26px;
+  width: 1200px;
+  display: block;
+  margin: 0 auto;
+}
+
+.mid-wrap{
+  margin-left: -16px;
+}
+
+.mid-wrap i{
+  width: 224px;
+  height: 254px;
+  float: left;
+  background-color: #fff;
+  margin-left: 16px;
+  border-radius: 6px;
+}
+
+.mid-wrap .icon-business{
+  display: block;
+  margin-top: 40px;
+  margin-left: 60px;
+  width: 152px;
+  height: 160px;
+  background: url(../images/business.png) no-repeat;
+}
+
+.mid-wrap .icon-2{
+  background: url(../images/business.png) no-repeat -152px 0;
+}
+.mid-wrap .icon-3{
+  background: url(../images/business.png) no-repeat -304px 0;
+}
+.mid-wrap .icon-4{
+  background: url(../images/business.png) no-repeat -456px 0;
+}
+.mid-wrap .icon-5{
+  background: url(../images/business.png) no-repeat -608px 0;
+}
+
+/* business Hover */
+.mid-wrap .icon-business:hover{
+  display: block;
+  margin-top: 40px;
+  margin-left: 60px;
+  width: 152px;
+  height: 160px;
+  background: url(../images/business-hover.png) no-repeat;
+}
+.mid-wrap .icon-2:hover{
+  background: url(../images/business-hover.png) no-repeat -153px 0;
+}
+.mid-wrap .icon-3:hover{
+  background: url(../images/business-hover.png) no-repeat -304px 0;
+}
+.mid-wrap .icon-4:hover{
+  background: url(../images/business-hover.png) no-repeat -456px 0;
+}
+.mid-wrap .icon-5:hover{
+  background: url(../images/business-hover.png) no-repeat -608px 0;
 }
 
 
+.mid-wrap .text{
+  text-align: center;
+  margin-bottom: 20px;
+  display: block;
+  font-size: 18px;
+  line-height: 1;
+}
 
-    /* topmenu end */
+.mid-wrap a:hover{
+  text-decoration: none;
+  color: #459005;
+}
+    /* business end */
