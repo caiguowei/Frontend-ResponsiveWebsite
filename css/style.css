@@ -396,5 +396,53 @@ table { border-spacing:0; border-collapse:collapse;}
   border-bottom-color: transparent;
   border-right-color: transparent;
 }
-
 /* the END */
+
+/* 果园风采 */
+.orchard{
+  display: block;
+  height: 530px;
+  background: url(../images/orchard.jpg) no-repeat;
+}
+
+.orchard ul{
+  width: 1200px;
+  height: 218px;
+  margin: 0 auto;
+  overflow: hidden;
+  margin-top: 30px;
+}
+.orchard li{
+  padding-left: 20px;
+  float: left;
+  width: 580px;
+  height: 218px;
+  display: block;
+}
+
+.orchard img{
+  width: 280px;
+  height: 215px;
+  border: 1px solid #fff;
+  float: left;
+  overflow: hidden;
+}
+
+.orchard p{
+padding-top: 15px;
+  font-size: 20px;
+  line-height: 25px;
+  margin-left: 300px;
+  color: #000000;
+}
+
+.orchard span{
+  display: block;
+  margin-top: 10px;
+  overflow: hidden;
+  font-size: 14px;
+  line-height: 25px;
+  margin-left: 300px;
+  text-indent: 30px;
+}
+/* THE END */
