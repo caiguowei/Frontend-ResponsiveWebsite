@@ -571,5 +571,45 @@ padding-top: 15px;
   line-height: 27px;
   text-indent: 30px;
 }
-
 /* 采摘包装 END */
+
+/* After-sale protection 售后保障 */
+.aftersale h1{
+  text-align: center;
+  padding-top: 25px;
+  font-size: 26px;
+  line-height: 1;
+  color: #595959;
+  font-weight: normal;
+}
+
+.aftersale h2{
+  text-align: center;
+  padding-top: 15px;
+  font-size: 26px;
+  line-height: 1;
+  color: #549005;
+  font-weight: normal;
+}
+
+.aftersale .line{
+  display: block;
+  width: 34px;
+  border-bottom: 1px solid #717070;
+  margin: 0 auto;
+  margin-top: 24px;
+  margin-bottom: 24px;
+}
+
+.protection{
+
+  background: url(../images/aftersale.jpg)no-repeat;
+}
+
+.protection .sale-list{
+  width: 1200px;
+  height: 660px;
+  margin: 0 auto;
+  background-color: pink;
+}
+/* After-sale protection END */
