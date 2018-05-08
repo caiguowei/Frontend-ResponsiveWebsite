@@ -611,14 +611,19 @@ padding-top: 15px;
   height: 660px;
   margin: 0 auto;
   padding-top: 10px;
-  background-color: pink;
+}
+
+.sale-wrap{
+  margin-left: -12px;
 }
 
 .protection .sale-list{
   overflow: hidden;
+  float: left;
   width: 230px;
   height: 570px;
   padding-top: 10px;
+  margin-left: 12px;
 }
 
 .protection .up-round{
