@@ -792,7 +792,15 @@ padding-top: 15px;
   margin-top: 6px;
 }
 
-.footer .hrLine:first-child{
+/* .menu-wrap>:first-child{
+  border-color: transparent;
+} */
+
+/* .menu-wrap div:first-child{
+  border-color: transparent;
+} */
+
+.menu .hrLine:first-child{
   border-color: transparent;
 }
 
